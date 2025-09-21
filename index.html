@@ -1,139 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HashiMomCreations</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HashiMomCreations - Helping Moms Turn Wellness & Wisdom into Beautiful, Profitable Brands">
+  <title>HashiMomCreations - Wellness & Web Design for Moms</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <img src="images/hashimom_logo.png" alt="HashiMom Logo" class="logo" />
-    <h1>HashiMomCreations</h1>
-    <p>Helping Moms Turn Wellness & Wisdom into Beautiful, Profitable Brands</p>
-    <a href="#contact" class="cta-btn">Start Your Website</a>
-  </header>
+<!-- Cookie Banner -->
+<div id="cookie-banner" class="cookie-banner">
+  <p data-i18n="cookie_text">We use cookies to ensure the best experience. By continuing, you accept our use of cookies. 🍪</p>
+  <button id="accept-cookies" data-i18n="cookie_accept">Accept</button>
+</div>
 
- 
+<!-- Language Selector -->
+<div class="lang-switch">
+  <label for="language">🌍</label>
+  <select id="language">
+    <option value="en">English</option>
+    <option value="es">Español</option>
+  </select>
+</div>
+
+<!-- Hero Section -->
+<header class="hero">
+  <img src="images/hashimom_logo.png" alt="HashiMom Logo" class="logo" />
+  <h1 data-i18n="hero_title">HashiMomCreations</h1>
+  <p data-i18n="hero_subtitle">Helping Moms Turn Wellness & Wisdom into Beautiful, Profitable Brands</p>
+  <a href="#contact" class="cta-btn" data-i18n="hero_cta">Start Your Website</a>
+</header>
+
+<!-- About Section -->
 <section id="about" class="about-section">
   <div class="about-container">
     <img src="images/image.png" alt="Maciel DeJesus photo" class="about-image" />
     <div class="about-content">
-      <h2>About Me</h2>
-      <p>Hi, I’m <strong>Maciel DeJesus</strong>, the heart behind HashiMomCreations 💗. As a mother, wellness warrior, and Hashimoto’s fighter, I created this space to inspire and empower other moms navigating autoimmune challenges, healing, and holistic living.</p>
-      <p>Here you’ll find simple wellness tools, digital freebies, and encouragement to help you feel your best—while building a life and business you love.</p>
-      <p>Let’s grow, glow, and thrive together 🌿✨</p>
+      <h2 data-i18n="about_title">About Me</h2>
+      <p data-i18n="about_p1">Hi, I'm <strong>Maciel DeJesus</strong>, the heart behind HashiMomCreations 💗. As a mother, wellness warrior, and Hashimoto's fighter, I created this space to inspire and empower other moms navigating autoimmune challenges, healing, and holistic living.</p>
+      <p data-i18n="about_p2">Here you'll find simple wellness tools, digital freebies, and encouragement to help you feel your best—while building a life and business you love.</p>
+      <p data-i18n="about_p3">Let's grow, glow, and thrive together 🌿✨</p>
     </div>
   </div>
 </section>
 
+<!-- Features Section -->
 <section class="features">
-  <h2>What You'll Find Here</h2>
+  <h2 data-i18n="features_title">What You'll Find Here</h2>
   <div class="feature-grid">
     <div class="feature">
-      <img src="icons/wellness.png" alt="Wellness Icon">
-      <h3>Wellness Tips</h3>
-      <p>Simple tools for healing, hormones, and energy.</p>
+      <img src="images/wellness.png" alt="Wellness Icon">
+      <h3 data-i18n="feature1_title">Wellness Tips</h3>
+      <p data-i18n="feature1_text">Simple tools for healing, hormones, and energy.</p>
     </div>
     <div class="feature">
-      <img src="icons/freebies.png" alt="Freebies Icon">
-      <h3>Freebies</h3>
-      <p>Printable guides, checklists, and starter kits made with love.</p>
+      <img src="images/freebies.png" alt="Freebies Icon">
+      <h3 data-i18n="feature2_title">Freebies</h3>
+      <p data-i18n="feature2_text">Printable guides, checklists, and starter kits made with love.</p>
     </div>
     <div class="feature">
-      <img src="icons/website.png" alt="Web Design Icon">
-      <h3>Website Help</h3>
-      <p>Beautiful, simple websites to launch your brand or biz.</p>
+      <img src="images/websitehelp.png" alt="Web Design Icon">
+      <h3 data-i18n="feature3_title">Website Help</h3>
+      <p data-i18n="feature3_text">Beautiful, simple websites to launch your brand or biz.</p>
     </div>
   </div>
 </section>
 
-<!-- 👇 Paste this after the features section -->
+<!-- Testimonials Section -->
 <section class="testimonials">
-  <h2>What Other Moms Are Saying</h2>
+  <h2 data-i18n="testimonials_title">What Other Moms Are Saying</h2>
   <div class="testimonial-container">
     <div class="testimonial">
-      <p>“HashiMomCreations made me feel seen. I finally understand how to support my body!”</p>
-      <span>— Laura, Mom of 3</span>
+      <p data-i18n="testimonial1">"HashiMomCreations made me feel seen. I finally understand how to support my body!"</p>
+      <span data-i18n="testimonial1_name">— Laura, Mom of 3</span>
     </div>
     <div class="testimonial">
-      <p>“The starter kit helped me launch my own wellness blog. I feel so confident now!”</p>
-      <span>— Gaby, New Wellness Coach</span>
+      <p data-i18n="testimonial2">"The starter kit helped me launch my own wellness blog. I feel so confident now!"</p>
+      <span data-i18n="testimonial2_name">— Gaby, New Wellness Coach</span>
     </div>
   </div>
 </section>
 
-
-  <!-- Services Section -->
-  <section class="services">
-    <h2>What I Offer</h2>
-    <div class="service-cards">
-      <div class="card">
-        <h3>✨ Custom Websites</h3>
-        <p>Unique, feminine, mobile-friendly designs to match your story and mission.</p>
-      </div>
-      <div class="card">
-        <h3>🧩 Templates & Branding</h3>
-        <p>Starter kits and Canva designs to make launching your brand easier than ever.</p>
-      </div>
-      <div class="card">
-        <h3>🤝 1-on-1 Tech Help</h3>
-        <p>I’ll walk with you every step of the way — even if you’re not “techy.”</p>
-      </div>
+<!-- Services Section -->
+<section class="services">
+  <h2 data-i18n="services_title">What I Offer</h2>
+  <div class="service-cards">
+    <div class="card">
+      <h3 data-i18n="service1_title">✨ Custom Websites</h3>
+      <p data-i18n="service1_text">Unique, feminine, mobile-friendly designs to match your story and mission.</p>
     </div>
-  </section>
-
-  <!-- Freebie Opt-in Section -->
-  <section class="freebie">
-    <h2>Free Gift for You 💌</h2>
-    <p>Download my free Website Starter Kit for Moms — and start building your brand today!</p>
-    <a href="https://hashimomcreations.com/website-starter-kit.pdf" class="cta-btn" download>
-  Download the Kit
-</a>
-  </section>
-
-  <!-- Work With Me Section -->
-  <section class="work">
-    <h2>How We Can Work Together</h2>
-    <ol>
-      <li><strong>Book a Free 15-min Call</strong> – Let’s chat and vibe!</li>
-      <li><strong>Pick Your Package</strong> – Custom, template, or coaching</li>
-      <li><strong>We Start!</strong> – I’ll build your dream site 💻✨</li>
-    </ol>
-    <a href="mailto:hashimomcreations@gmail.com" class="cta-btn">Schedule Now</a>
-  </section>
-
-  <!-- Instagram Section -->
-  <section class="coming-soon">
-    <h2>Follow Me on Instagram</h2>
-    <p>Let’s grow together at <strong>@hashimomcreations</strong> — where healing meets hustle 💫</p>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <h2>Let’s Connect</h2>
-    <p>Ready to bring your vision to life? Email me directly and let’s get started.</p>
-    <a href="mailto:hashimomcreations@gmail.com" class="email-link">hashimomcreations@gmail.com</a>
-  </section>
-
-  <!-- 👇 Paste this above your <footer> tag -->
-<section class="cta-section">
-  <h2>Ready to Start Your Journey?</h2>
-  <p>Grab your FREE Website Starter Kit and begin building your dream.</p>
-  <a href="https://hashimomcreations.com/website-starter-kit.pdf" class="cta-button" download>
-  Yes, Send It to Me!
-</a>
+    <div class="card">
+      <h3 data-i18n="service2_title">🧩 Templates & Branding</h3>
+      <p data-i18n="service2_text">Starter kits and Canva designs to make launching your brand easier than ever.</p>
+    </div>
+    <div class="card">
+      <h3 data-i18n="service3_title">🤝 1-on-1 Tech Help</h3>
+      <p data-i18n="service3_text">I'll walk with you every step of the way — even if you're not "techy."</p>
+    </div>
+  </div>
 </section>
 
+<!-- Freebie Opt-in Section -->
+<section class="freebie">
+  <h2 data-i18n="freebie_title">Free Gift for You 💌</h2>
+  <p data-i18n="freebie_text">Download my free Website Starter Kit for Moms — and start building your brand today!</p>
+  <a href="public/hashimom-website-starter-kit.pdf" class="cta-btn" data-i18n="freebie_btn" download>Download the Kit</a>
+</section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 HashiMomCreations · Made with 💗 by Maciel · Powered by GrowEasy Digital</p>
-  </footer>
+<!-- Work With Me Section -->
+<section class="work">
+  <h2 data-i18n="work_title">How We Can Work Together</h2>
+  <ol>
+    <li data-i18n="work_step1"><strong>Book a Free 15-min Call</strong> – Let's chat and vibe!</li>
+    <li data-i18n="work_step2"><strong>Pick Your Package</strong> – Custom, template, or coaching</li>
+    <li data-i18n="work_step3"><strong>We Start!</strong> – I'll build your dream site 💻✨</li>
+  </ol>
+  <a href="mailto:hashimomcreations@gmail.com" class="cta-btn" data-i18n="work_btn">Schedule Now</a>
+</section>
+
+<!-- Instagram Section -->
+<section class="coming-soon">
+  <h2 data-i18n="ig_title">Follow Me on Instagram</h2>
+  <p data-i18n="ig_text">Let's grow together at <strong>@hashimomcreations</strong> — where healing meets hustle 💫</p>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2 data-i18n="contact_title">Let's Connect</h2>
+  <p data-i18n="contact_text">Ready to bring your vision to life? Email me directly and let's get started.</p>
+  <a href="mailto:hashimomcreations@gmail.com" class="email-link" data-i18n="contact_email">hashimomcreations@gmail.com</a>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+  <h2 data-i18n="cta_section_title">Ready to Start Your Journey?</h2>
+  <p data-i18n="cta_section_text">Grab your FREE Website Starter Kit and begin building your dream.</p>
+  <a href="public/hashimom-website-starter-kit.pdf" class="cta-button" data-i18n="cta_section_btn" download>Yes, Send It to Me!</a>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <p data-i18n="footer_legal">© 2025 HashiMomCreations. All Rights Reserved.</p>
+  <p data-i18n="footer_credit">A brand proudly created by <strong>GrowEasy Digital</strong>.</p>
+  <p>
+    <a href="terms.html" data-i18n="footer_terms">Terms of Use</a> |
+    <a href="privacy.html" data-i18n="footer_privacy">Privacy Policy</a> |
+    <a href="license.txt" data-i18n="footer_license">MIT License</a>
+  </p>
+</footer>
+
+<!-- Scripts -->
+<script src="translations.js"></script>
+<script src="scripts.js"></script>
+
+<!-- Tidio Chat Integration -->
 <script src="//code.tidio.co/hpcmynnt8ktp3hjinqallxqjiduev4o8.js" async></script>
 <script>
+  // Open Tidio chat after 12 seconds
   window.addEventListener('load', function () {
     setTimeout(() => {
       const event = new CustomEvent('tidioChat-open');
