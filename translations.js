@@ -12,9 +12,9 @@ const translations = {
     
     // About Section
     about_title: "About Me",
-    about_p1: "Hi, I'm <strong>Maciel DeJesus</strong>, the heart behind HashiMomCreations 💗. As a mother, wellness warrior, and Hashimoto's fighter, I created this space to inspire and empower other moms navigating autoimmune challenges, healing, and holistic living.",
-    about_p2: "Here you'll find simple wellness tools, digital freebies, and encouragement to help you feel your best—while building a life and business you love.",
-    about_p3: "Let's grow, glow, and thrive together 🌿✨",
+    about_p1: "I'm <strong>Maciel DeJesus</strong>. When Hashimoto's forced me to rebuild my life, I discovered something: <strong>the tech skills I learned while brain-fogged became my superpower.",
+    about_p2: "Now I build websites for moms like us - the ones juggling autoimmune flares, kids, and big dreams. <strong>I know you don't have energy to waste.</strong> That's why I handle all the tech while you focus on healing and serving your clients.",
+    about_p3: "Your illness isn't your identity. It's your strength. Let me build the platform that turns your wellness journey into your family's financial freedom 🌿✨",
     
     // Features Section
     features_title: "What You'll Find Here",
@@ -74,6 +74,34 @@ const translations = {
     footer_privacy: "Privacy Policy",
     footer_license: "MIT License"
   },
+
+  // Navigation
+nav_about: "About",
+nav_portfolio: "Portfolio",
+nav_services: "Services",
+nav_pricing: "Investment",
+nav_contact: "Book a Call",
+
+// Portfolio Section
+portfolio_title: "Recent Projects",
+portfolio_glowtrade_title: "GlowTrade AI",
+portfolio_glowtrade_desc: "Built a modern AI technology website with seamless user experience",
+portfolio_conde_title: "Conde de St Germain Technology LLC",
+portfolio_conde_desc: "Enterprise technology website with custom integrations",
+portfolio_view: "View Live Site →",
+portfolio_launching: "Launching January 2025",
+
+// Pricing Section
+pricing_title: "Investment",
+pricing_starter_title: "Website Starter",
+pricing_starter_price: "Starting at $497",
+pricing_builder_title: "Brand Builder",
+pricing_builder_price: "Starting at $997",
+pricing_launch_title: "Full Launch",
+pricing_launch_price: "Starting at $1,497",
+pricing_popular: "Most Popular",
+pricing_note: "Payment plans available • Book a call for custom projects",
+
   
   es: {
     // Cookie Banner
@@ -86,10 +114,10 @@ const translations = {
     hero_cta: "Comienza Tu Sitio Web",
     
     // About Section
-    about_title: "Sobre Mí",
-    about_p1: "Hola, soy <strong>Maciel DeJesus</strong>, el corazón detrás de HashiMomCreations 💗. Como madre, guerrera del bienestar y luchadora contra Hashimoto, creé este espacio para inspirar y empoderar a otras mamás que enfrentan desafíos autoinmunes, sanación y vida holística.",
-    about_p2: "Aquí encontrarás herramientas simples de bienestar, recursos digitales gratuitos y ánimo para sentirte mejor mientras construyes una vida y negocio que amas.",
-    about_p3: "Vamos a crecer, brillar y prosperar juntas 🌿✨",
+    about_title: "Por Qué Te Entiendo",
+about_p1: "Soy <strong>Maciel DeJesus</strong>. Cuando Hashimoto me obligó a reconstruir mi vida, descubrí algo: <strong>las habilidades técnicas que aprendí con niebla mental se convirtieron en mi superpoder.</strong>",
+about_p2: "Ahora construyo sitios web para mamás como nosotras - las que hacen malabares con brotes autoinmunes, niños y grandes sueños. <strong>Sé que no tienes energía para desperdiciar.</strong> Por eso manejo toda la tecnología mientras tú te enfocas en sanar y servir a tus clientes.",
+about_p3: "Tu enfermedad no es tu identidad. Es tu fortaleza. Déjame construir la plataforma que convierta tu viaje de bienestar en la libertad financiera de tu familia.",
     
     // Features Section
     features_title: "Lo Que Encontrarás Aquí",
@@ -149,4 +177,31 @@ const translations = {
     footer_privacy: "Política de Privacidad",
     footer_license: "Licencia MIT"
   }
+
+  // Navigation
+nav_about: "Sobre Mí",
+nav_portfolio: "Portafolio",
+nav_services: "Servicios",
+nav_pricing: "Inversión",
+nav_contact: "Agenda una Llamada",
+
+// Portfolio Section
+portfolio_title: "Proyectos Recientes",
+portfolio_glowtrade_title: "GlowTrade AI",
+portfolio_glowtrade_desc: "Construí un sitio web moderno de tecnología AI con experiencia de usuario perfecta",
+portfolio_conde_title: "Conde de St Germain Technology LLC",
+portfolio_conde_desc: "Sitio web de tecnología empresarial con integraciones personalizadas",
+portfolio_view: "Ver Sitio en Vivo →",
+portfolio_launching: "Lanzamiento Enero 2025",
+
+// Pricing Section
+pricing_title: "Inversión",
+pricing_starter_title: "Sitio Web Inicial",
+pricing_starter_price: "Desde $497",
+pricing_builder_title: "Constructor de Marca",
+pricing_builder_price: "Desde $997",
+pricing_launch_title: "Lanzamiento Completo",
+pricing_launch_price: "Desde $1,497",
+pricing_popular: "Más Popular",
+pricing_note: "Planes de pago disponibles • Agenda una llamada para proyectos personalizados",
 };

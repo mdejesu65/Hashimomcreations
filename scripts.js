@@ -38,7 +38,7 @@ const observer = new IntersectionObserver((entries) => {
 document.addEventListener('DOMContentLoaded', () => {
   
   // Set up scroll animations
-  const animatedElements = document.querySelectorAll('.about-section, .features, .testimonials, .services, .freebie, .work, .coming-soon, .contact, .cta-section');
+  const animatedElements = document.querySelectorAll('.about-section, .features, .testimonials, .services, .freebie, .work, .coming-soon, .contact, .cta-section, .portfolio, .pricing');
   animatedElements.forEach(el => {
     el.classList.add('scroll-animate');
     observer.observe(el);
@@ -279,6 +279,18 @@ document.addEventListener('DOMContentLoaded', () => {
     
     lazyImages.forEach(img => imageObserver.observe(img));
   }
+  
+  // Sticky navigation show/hide functionality
+  window.addEventListener('scroll', () => {
+    const nav = document.querySelector('.sticky-nav');
+    if (nav) {
+      if (window.scrollY > 600) {
+        nav.classList.add('show');
+      } else {
+        nav.classList.remove('show');
+      }
+    }
+  });
   
 });
 

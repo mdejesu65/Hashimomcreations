@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Add Sticky Nav HERE -->
+<nav class="sticky-nav">
+  <a href="#about" data-i18n="nav_about">About</a>
+  <a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a>
+  <a href="#services" data-i18n="nav_services">Services</a>
+  <a href="#pricing" data-i18n="nav_pricing">Investment</a>
+  <a href="#contact" class="nav-cta" data-i18n="nav_contact">Book a Call</a>
+</nav>
 
 <!-- Cookie Banner -->
 <div id="cookie-banner" class="cookie-banner">
@@ -32,21 +40,21 @@
   <a href="#contact" class="cta-btn" data-i18n="hero_cta">Start Your Website</a>
 </header>
 
-<!-- About Section -->
 <section id="about" class="about-section">
   <div class="about-container">
     <img src="images/image.png" alt="Maciel DeJesus photo" class="about-image" />
     <div class="about-content">
-      <h2 data-i18n="about_title">About Me</h2>
-      <p data-i18n="about_p1">Hi, I'm <strong>Maciel DeJesus</strong>, the heart behind HashiMomCreations 💗. As a mother, wellness warrior, and Hashimoto's fighter, I created this space to inspire and empower other moms navigating autoimmune challenges, healing, and holistic living.</p>
-      <p data-i18n="about_p2">Here you'll find simple wellness tools, digital freebies, and encouragement to help you feel your best—while building a life and business you love.</p>
-      <p data-i18n="about_p3">Let's grow, glow, and thrive together 🌿✨</p>
+      <h2 data-i18n="about_title">Why I Get It</h2>
+      <p data-i18n="about_p1">I'm <strong>Maciel DeJesus</strong>. When Hashimoto's forced me to rebuild my life, I discovered something: <strong>the tech skills I learned while brain-fogged became my superpower.</strong></p>
+      <p data-i18n="about_p2">Now I build websites for moms like us - the ones juggling autoimmune flares, kids, and big dreams. <strong>I know you don't have energy to waste.</strong> That's why I handle all the tech while you focus on healing and serving your clients.</p>
+      <p data-i18n="about_p3">Your illness isn't your identity. It's your strength. Let me build the platform that turns your wellness journey into your family's financial freedom.</p>
+      <a href="#pricing" class="cta-btn">See How We Can Work Together</a>
     </div>
   </div>
 </section>
 
 <!-- Features Section -->
-<section class="features">
+<section id="features" class="features">
   <h2 data-i18n="features_title">What You'll Find Here</h2>
   <div class="feature-grid">
     <div class="feature">
@@ -83,7 +91,7 @@
 </section>
 
 <!-- Services Section -->
-<section class="services">
+<section id="services" class="services">
   <h2 data-i18n="services_title">What I Offer</h2>
   <div class="service-cards">
     <div class="card">
@@ -101,11 +109,75 @@
   </div>
 </section>
 
+<!-- Portfolio Section -->
+
+<section id="portfolio" class="portfolio">
+  <h2 data-i18n="portfolio_title">Recent Projects</h2>
+  <div class="portfolio-grid">
+    
+    <!-- GlowTrade -->
+    <div class="portfolio-item">
+      <img src="images/glowtrade-screenshot.png" alt="GlowTrade AI Website">
+      <h3 data-i18n="portfolio_glowtrade_title">GlowTrade AI</h3>
+      <p data-i18n="portfolio_glowtrade_desc">Built a modern AI technology website with seamless user experience</p>
+      <a href="https://glowtrade.ai" target="_blank" class="view-site" data-i18n="portfolio_view">View Live Site →</a>
+    </div>
+    
+    <!-- Conde de St Germain -->
+    <div class="portfolio-item">
+      <img src="images/condestgermain-screenshot.png" alt="Conde de St Germain Technology">
+      <h3 data-i18n="portfolio_conde_title">Conde de St Germain Technology LLC</h3>
+      <p data-i18n="portfolio_conde_desc">Enterprise technology website with custom integrations</p>
+      <span class="status" data-i18n="portfolio_launching">Launching January 2025</span>
+    </div>
+    
+  </div>
+</section>
+
 <!-- Freebie Opt-in Section -->
 <section class="freebie">
   <h2 data-i18n="freebie_title">Free Gift for You 💌</h2>
   <p data-i18n="freebie_text">Download my free Website Starter Kit for Moms — and start building your brand today!</p>
   <a href="/public/hashimom-website-starter-kit.pdf" class="cta-btn" data-i18n="freebie_btn" download>Download the Kit</a>
+</section>
+
+<!-- Pricing -->
+<section id="pricing" class="pricing"> 
+  <h2 data-i18n="pricing_title">Investment</h2>
+  <div class="pricing-cards">
+    <div class="price-card">
+      <h3>Website Starter</h3>
+      <p class="price">Starting at $497</p>
+      <ul>
+        <li>5-page website</li>
+        <li>Mobile responsive</li>
+        <li>Basic SEO setup</li>
+        <li>2 weeks delivery</li>
+      </ul>
+    </div>
+    <div class="price-card featured">
+      <span class="popular" data-i18n="pricing_popular">Most Popular</span>
+      <h3>Brand Builder</h3>
+      <p class="price">Starting at $997</p>
+      <ul>
+        <li>10-page website</li>
+        <li>Logo & brand kit</li>
+        <li>Email automation</li>
+        <li>3 weeks delivery</li>
+      </ul>
+    </div>
+    <div class="price-card">
+      <h3>Full Launch</h3>
+      <p class="price">Starting at $1,497</p>
+      <ul>
+        <li>Unlimited pages</li>
+        <li>E-commerce ready</li>
+        <li>3 months support</li>
+        <li>4 weeks delivery</li>
+      </ul>
+    </div>
+  </div>
+  <p class="price-note">Payment plans available • Book a call for custom projects</p>
 </section>
 
 <!-- Work With Me Section -->
