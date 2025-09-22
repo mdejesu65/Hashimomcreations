@@ -41,6 +41,33 @@ const translations = {
     service3_title: "🤝 1-on-1 Tech Help",
     service3_text: 'I\'ll walk with you every step of the way — even if you\'re not "techy."',
     
+    // Navigation - MOVED INSIDE en object
+    nav_about: "About",
+    nav_portfolio: "Portfolio",
+    nav_services: "Services",
+    nav_pricing: "Investment",
+    nav_contact: "Book a Call",
+    
+    // Portfolio Section - MOVED INSIDE en object
+    portfolio_title: "Recent Projects",
+    portfolio_glowtrade_title: "GlowTrade AI",
+    portfolio_glowtrade_desc: "Built a modern AI technology website with seamless user experience",
+    portfolio_conde_title: "Conde de St Germain Technology LLC",
+    portfolio_conde_desc: "Enterprise technology website with custom integrations",
+    portfolio_view: "View Live Site →",
+    portfolio_launching: "Launching January 2025",
+    
+    // Pricing Section - MOVED INSIDE en object
+    pricing_title: "Investment",
+    pricing_starter_title: "Website Starter",
+    pricing_starter_price: "Starting at $497",
+    pricing_builder_title: "Brand Builder",
+    pricing_builder_price: "Starting at $997",
+    pricing_launch_title: "Full Launch",
+    pricing_launch_price: "Starting at $1,497",
+    pricing_popular: "Most Popular",
+    pricing_note: "Payment plans available • Book a call for custom projects",
+    
     // Freebie Section
     freebie_title: "Free Gift for You 💌",
     freebie_text: "Download my free Website Starter Kit for Moms — and start building your brand today!",
@@ -59,7 +86,7 @@ const translations = {
     
     // Contact Section
     contact_title: "Let's Connect",
-    contact_text: "Ready to bring your vision to life? Email me directly and let's get started.",
+    contact_text: "Ready to bring your vision to life? Book your discovery call below.",
     contact_email: "hashimomcreations@gmail.com",
     
     // CTA Section
@@ -74,34 +101,6 @@ const translations = {
     footer_privacy: "Privacy Policy",
     footer_license: "MIT License"
   },
-
-  // Navigation
-nav_about: "About",
-nav_portfolio: "Portfolio",
-nav_services: "Services",
-nav_pricing: "Investment",
-nav_contact: "Book a Call",
-
-// Portfolio Section
-portfolio_title: "Recent Projects",
-portfolio_glowtrade_title: "GlowTrade AI",
-portfolio_glowtrade_desc: "Built a modern AI technology website with seamless user experience",
-portfolio_conde_title: "Conde de St Germain Technology LLC",
-portfolio_conde_desc: "Enterprise technology website with custom integrations",
-portfolio_view: "View Live Site →",
-portfolio_launching: "Launching January 2025",
-
-// Pricing Section
-pricing_title: "Investment",
-pricing_starter_title: "Website Starter",
-pricing_starter_price: "Starting at $497",
-pricing_builder_title: "Brand Builder",
-pricing_builder_price: "Starting at $997",
-pricing_launch_title: "Full Launch",
-pricing_launch_price: "Starting at $1,497",
-pricing_popular: "Most Popular",
-pricing_note: "Payment plans available • Book a call for custom projects",
-
   
   es: {
     // Cookie Banner
@@ -115,9 +114,9 @@ pricing_note: "Payment plans available • Book a call for custom projects",
     
     // About Section
     about_title: "Por Qué Te Entiendo",
-about_p1: "Soy <strong>Maciel DeJesus</strong>. Cuando Hashimoto me obligó a reconstruir mi vida, descubrí algo: <strong>las habilidades técnicas que aprendí con niebla mental se convirtieron en mi superpoder.</strong>",
-about_p2: "Ahora construyo sitios web para mamás como nosotras - las que hacen malabares con brotes autoinmunes, niños y grandes sueños. <strong>Sé que no tienes energía para desperdiciar.</strong> Por eso manejo toda la tecnología mientras tú te enfocas en sanar y servir a tus clientes.",
-about_p3: "Tu enfermedad no es tu identidad. Es tu fortaleza. Déjame construir la plataforma que convierta tu viaje de bienestar en la libertad financiera de tu familia.",
+    about_p1: "Soy <strong>Maciel DeJesus</strong>. Cuando Hashimoto me obligó a reconstruir mi vida, descubrí algo: <strong>las habilidades técnicas que aprendí con niebla mental se convirtieron en mi superpoder.</strong>",
+    about_p2: "Ahora construyo sitios web para mamás como nosotras - las que hacen malabares con brotes autoinmunes, niños y grandes sueños. <strong>Sé que no tienes energía para desperdiciar.</strong> Por eso manejo toda la tecnología mientras tú te enfocas en sanar y servir a tus clientes.",
+    about_p3: "Tu enfermedad no es tu identidad. Es tu fortaleza. Déjame construir la plataforma que convierta tu viaje de bienestar en la libertad financiera de tu familia.",
     
     // Features Section
     features_title: "Lo Que Encontrarás Aquí",
@@ -144,6 +143,33 @@ about_p3: "Tu enfermedad no es tu identidad. Es tu fortaleza. Déjame construir 
     service3_title: "🤝 Ayuda Técnica 1-a-1",
     service3_text: 'Te acompañaré en cada paso, incluso si no eres experta en tecnología.',
     
+    // Navigation - MOVED INSIDE es object
+    nav_about: "Sobre Mí",
+    nav_portfolio: "Portafolio",
+    nav_services: "Servicios",
+    nav_pricing: "Inversión",
+    nav_contact: "Agenda una Llamada",
+    
+    // Portfolio Section - MOVED INSIDE es object
+    portfolio_title: "Proyectos Recientes",
+    portfolio_glowtrade_title: "GlowTrade AI",
+    portfolio_glowtrade_desc: "Construí un sitio web moderno de tecnología AI con experiencia de usuario perfecta",
+    portfolio_conde_title: "Conde de St Germain Technology LLC",
+    portfolio_conde_desc: "Sitio web de tecnología empresarial con integraciones personalizadas",
+    portfolio_view: "Ver Sitio en Vivo →",
+    portfolio_launching: "Lanzamiento Enero 2025",
+    
+    // Pricing Section - MOVED INSIDE es object
+    pricing_title: "Inversión",
+    pricing_starter_title: "Sitio Web Inicial",
+    pricing_starter_price: "Desde $497",
+    pricing_builder_title: "Constructor de Marca",
+    pricing_builder_price: "Desde $997",
+    pricing_launch_title: "Lanzamiento Completo",
+    pricing_launch_price: "Desde $1,497",
+    pricing_popular: "Más Popular",
+    pricing_note: "Planes de pago disponibles • Agenda una llamada para proyectos personalizados",
+    
     // Freebie Section
     freebie_title: "Un Regalo Para Ti 💌",
     freebie_text: "Descarga gratis mi Kit de Inicio para Mamás — ¡y empieza a construir tu marca hoy!",
@@ -162,7 +188,7 @@ about_p3: "Tu enfermedad no es tu identidad. Es tu fortaleza. Déjame construir 
     
     // Contact Section
     contact_title: "Conectemos",
-    contact_text: "¿Lista para darle vida a tu visión? Escríbeme y empecemos juntas.",
+    contact_text: "¿Lista para darle vida a tu visión? Agenda tu llamada de descubrimiento abajo.",
     contact_email: "hashimomcreations@gmail.com",
     
     // CTA Section
@@ -177,31 +203,4 @@ about_p3: "Tu enfermedad no es tu identidad. Es tu fortaleza. Déjame construir 
     footer_privacy: "Política de Privacidad",
     footer_license: "Licencia MIT"
   }
-
-  // Navigation
-nav_about: "Sobre Mí",
-nav_portfolio: "Portafolio",
-nav_services: "Servicios",
-nav_pricing: "Inversión",
-nav_contact: "Agenda una Llamada",
-
-// Portfolio Section
-portfolio_title: "Proyectos Recientes",
-portfolio_glowtrade_title: "GlowTrade AI",
-portfolio_glowtrade_desc: "Construí un sitio web moderno de tecnología AI con experiencia de usuario perfecta",
-portfolio_conde_title: "Conde de St Germain Technology LLC",
-portfolio_conde_desc: "Sitio web de tecnología empresarial con integraciones personalizadas",
-portfolio_view: "Ver Sitio en Vivo →",
-portfolio_launching: "Lanzamiento Enero 2025",
-
-// Pricing Section
-pricing_title: "Inversión",
-pricing_starter_title: "Sitio Web Inicial",
-pricing_starter_price: "Desde $497",
-pricing_builder_title: "Constructor de Marca",
-pricing_builder_price: "Desde $997",
-pricing_launch_title: "Lanzamiento Completo",
-pricing_launch_price: "Desde $1,497",
-pricing_popular: "Más Popular",
-pricing_note: "Planes de pago disponibles • Agenda una llamada para proyectos personalizados",
 };
